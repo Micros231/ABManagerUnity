@@ -1,0 +1,15 @@
+{
+    "name": "ABManagerRuntime",
+    "references": [
+        "GUID:766dca17853e6df4c940e40577f23edb",
+        "GUID:5c1ff9bd975acec488150743d53a93ca"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

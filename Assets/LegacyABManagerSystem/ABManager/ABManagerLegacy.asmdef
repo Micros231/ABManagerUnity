@@ -1,0 +1,14 @@
+{
+    "name": "ABManagerLegacy",
+    "references": [
+        "GUID:5c1ff9bd975acec488150743d53a93ca"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

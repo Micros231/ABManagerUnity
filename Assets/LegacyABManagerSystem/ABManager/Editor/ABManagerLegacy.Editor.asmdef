@@ -1,0 +1,18 @@
+{
+    "name": "ABManagerLegacyEditor",
+    "references": [
+        "GUID:c5ecc461727906345a35491a0440694f",
+        "GUID:5c1ff9bd975acec488150743d53a93ca",
+        "GUID:51e162919f064fe408c11d314b0bba46"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
