@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1d1c71cae716a4ca08c8fbb1f94496, type: 3}
+  m_Name: ABSettings
+  m_EditorClassIdentifier: 
+  _buildPath: E:/GameProjects/AssetBundle System Prototype/Assets/ABData/Builds
+  _localLoadPath: C:/Users/Micros/AppData/LocalLow/DefaultCompany/AssetBundle System
+    Prototype/ABData
+  _remoteLoadPath: http://localhost:55749/ABData
+  _version: 1
+  _buildTarget: 5
+  _buildTargetGroup: 1
+  _items:
+  - {fileID: 11400000, guid: cbe5b5db6ffee5c42abf563c09d43b6c, type: 2}
+  - {fileID: 11400000, guid: d1609fcdf3ff33e49b2181829a6cb35c, type: 2}
+  - {fileID: 11400000, guid: d06040f155b086b4fba009b1c7c05197, type: 2}
+  - {fileID: 11400000, guid: af968b89269e048449fb734260a758c9, type: 2}

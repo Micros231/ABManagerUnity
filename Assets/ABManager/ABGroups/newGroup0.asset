@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9e090eb657b4843b11727b25406632, type: 3}
+  m_Name: newGroup0
+  m_EditorClassIdentifier: 
+  _buildPath: Prefabs
+  _localLoadPath: Prefabs
+  _remoteLoadPath: Prefabs
+  _version: 1
+  _buildTarget: 5
+  _buildTargetGroup: 1
+  _items:
+  - _name: Shader
+    _pathAsset: Assets/Prefabs/NewSurfaceShader.shader
+    _assetObject: {fileID: 4800000, guid: 79918ab1b0ab8e84ab5aa3474e0eb79f, type: 3}
+    _typeAsset: 0
+    _guidAsset: 79918ab1b0ab8e84ab5aa3474e0eb79f
+  - _name: Spere
+    _pathAsset: Assets/Prefabs/Sphere.prefab
+    _assetObject: {fileID: 7585023526083907548, guid: 071e9ef933d2e5e44ae879da9f76c956,
+      type: 3}
+    _typeAsset: 0
+    _guidAsset: 071e9ef933d2e5e44ae879da9f76c956
+  - _name: Cube
+    _pathAsset: Assets/Prefabs/Cube.prefab
+    _assetObject: {fileID: 64646562622202866, guid: 2b1d97f4d2670be478f842fb80ed7292,
+      type: 3}
+    _typeAsset: 0
+    _guidAsset: 2b1d97f4d2670be478f842fb80ed7292
+  _name: Prefabs
+  _isCustomSettings: 0
+  _buildCompressionType: 2

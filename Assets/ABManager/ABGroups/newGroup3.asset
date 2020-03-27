@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9e090eb657b4843b11727b25406632, type: 3}
+  m_Name: newGroup3
+  m_EditorClassIdentifier: 
+  _buildPath: newGroup4
+  _localLoadPath: newGroup4
+  _remoteLoadPath: newGroup4
+  _version: 3
+  _buildTarget: 5
+  _buildTargetGroup: 1
+  _items:
+  - _name: SceneGroup3
+    _pathAsset: Assets/Scenes/GroupScene3.unity
+    _assetObject: {fileID: 102900000, guid: c3e2dd12d48afd04fab7fb6df2c04a8e, type: 3}
+    _typeAsset: 1
+    _guidAsset: c3e2dd12d48afd04fab7fb6df2c04a8e
+  - _name: Assets/Prefabs/CameraRender.prefab
+    _pathAsset: Assets/Prefabs/CameraRender.prefab
+    _assetObject: {fileID: 7320065591200180481, guid: 6220df939a6d72d408ebbce404abc033,
+      type: 3}
+    _typeAsset: 0
+    _guidAsset: 6220df939a6d72d408ebbce404abc033
+  - _name: Assets/Prefabs/CubeRender.prefab
+    _pathAsset: Assets/Prefabs/CubeRender.prefab
+    _assetObject: {fileID: 1854063569468749773, guid: 30f114ae66febb84d987a27d511e3ba2,
+      type: 3}
+    _typeAsset: 0
+    _guidAsset: 30f114ae66febb84d987a27d511e3ba2
+  - _name: GroupScene2
+    _pathAsset: Assets/Scenes/GroupScene2.unity
+    _assetObject: {fileID: 102900000, guid: f1bc0eeff502ebd45be644d79b8d7f77, type: 3}
+    _typeAsset: 1
+    _guidAsset: f1bc0eeff502ebd45be644d79b8d7f77
+  - _name: SampleScene
+    _pathAsset: Assets/Scenes/SampleScene.unity
+    _assetObject: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+    _typeAsset: 1
+    _guidAsset: 9fc0d4010bbf28b4594072e72b8655ab
+  - _name: Assets/Materials/RenderTexture.renderTexture
+    _pathAsset: Assets/Materials/RenderTexture.renderTexture
+    _assetObject: {fileID: 8400000, guid: 264e513420f4a724bae0627770b1fcec, type: 2}
+    _typeAsset: 0
+    _guidAsset: 264e513420f4a724bae0627770b1fcec
+  - _name: Assets/Materials/RenderMaterial.mat
+    _pathAsset: Assets/Materials/RenderMaterial.mat
+    _assetObject: {fileID: 2100000, guid: 94d599ba86a2de045928f89cce4c410e, type: 2}
+    _typeAsset: 0
+    _guidAsset: 94d599ba86a2de045928f89cce4c410e
+  _name: newGroup4
+  _isCustomSettings: 0
+  _buildCompressionType: 2
