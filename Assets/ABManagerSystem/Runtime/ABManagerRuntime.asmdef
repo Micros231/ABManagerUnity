@@ -2,7 +2,8 @@
     "name": "ABManagerRuntime",
     "references": [
         "GUID:766dca17853e6df4c940e40577f23edb",
-        "GUID:5c1ff9bd975acec488150743d53a93ca"
+        "GUID:5c1ff9bd975acec488150743d53a93ca",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
