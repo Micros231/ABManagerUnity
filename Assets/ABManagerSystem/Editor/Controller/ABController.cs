@@ -2,17 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ABController : MonoBehaviour
+namespace ABManagerEditor.Controller
 {
-    // Start is called before the first frame update
-    void Start()
+    public class ABController : ABControllerAbstract
     {
-        
-    }
+        public ABBuilder Builder { get; }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public ABController()
+        {
+            Builder = new ABBuilder();
+        }
     }
 }
+
