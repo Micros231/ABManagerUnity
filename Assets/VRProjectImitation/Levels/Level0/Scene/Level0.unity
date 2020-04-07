@@ -158,6 +158,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _manifest:
     _version: 
+    _platformTarget: 
+    _levelTemplatesInfo:
+    - _nameLevel: 
+      _sceneBundleInfo:
+        _name: 
+        _sceneInfo:
+          _name: 
+          _path: 
+      _assetBundleInfo:
+        _name: 
+        _assetsInfo: []
+    _standTemplatesInfo: []
+    _instanceTemplatesInfo: []
 --- !u!4 &341897163
 Transform:
   m_ObjectHideFlags: 0
