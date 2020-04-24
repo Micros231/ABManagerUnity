@@ -8,6 +8,7 @@ namespace ABManagerCore.Consts
     {
         public const string JSON = ".json";
         public const string Asset = ".asset";
+        public const string AssetBundle = ".bundle";
     }
 }
 

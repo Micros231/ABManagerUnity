@@ -105,7 +105,6 @@ namespace ABManagerEditor.Models
         { 
             get
             {
-                
                 var assetsBuilds = Items.Where(asset => asset.TypeAsset == TypeAsset.Default);
                 var scenesBuilds = Items.Where(asset => asset.TypeAsset == TypeAsset.Scene);
                 var bundleBuilds = new List<AssetBundleBuild>();

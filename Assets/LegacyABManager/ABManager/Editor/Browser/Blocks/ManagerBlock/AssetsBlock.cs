@@ -36,7 +36,6 @@ namespace ABManagerEditor.Browser.Blocks
         {
             _assetTreeView.OnSelectABAsset -= OnSelectAsset;
         }
-
         internal override void OnGUI(Rect screenRect)           
         {
             float paddingHeight = 30;

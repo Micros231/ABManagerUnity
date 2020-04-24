@@ -108,7 +108,6 @@ namespace ABManagerEditor.Browser.Blocks
                 EditorGUIUtility.PingObject(item.Asset.AssetObject);
             }
         }
-
         internal void AddAsset(UnityEngine.Object assetObject)
         {
             if (_currentGroup != null)

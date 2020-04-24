@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _buildTargetGroup: 1
   _buildTarget: 5
-  _version: 2
+  _version: 1
   _buildPath: Assets/ABManagerSystem\Data
   _buildCompressionType: 1
+  _levelTemplates: []
+  _standTepmplates: []
+  _instanceTemplates: []

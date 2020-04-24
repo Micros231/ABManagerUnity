@@ -13,17 +13,17 @@ namespace ABManagerEditor.Controller
     {
         internal ManagerSettings ManagerSettings
         {
-            get => GetSettings(_managerSettings, EditorFilePathHelper.ManagerSettingsFilePath);
+            get => GetSettings(ref _managerSettings, EditorFilePathHelper.ManagerSettingsFilePath);
         }
         internal HostSettings HostSettings
         {
-            get => GetSettings(_hostSettings, EditorFilePathHelper.HostSettingsFilePath);
+            get => GetSettings(ref _hostSettings, EditorFilePathHelper.HostSettingsFilePath);
         }
 
         private ManagerSettings _managerSettings;
         private HostSettings _hostSettings;
 
-        private T GetSettings<T>(T cachedSettings, string filePath) where T : ScriptableObject
+        private T GetSettings<T>(ref T cachedSettings, string filePath) where T : ScriptableObject
         {
             if (cachedSettings != null)
             {
@@ -31,7 +31,6 @@ namespace ABManagerEditor.Controller
             }
             if (File.Exists(filePath))
             {
-
                 cachedSettings = AssetDatabase.LoadAssetAtPath<T>(filePath);
             }
             if (cachedSettings == null)

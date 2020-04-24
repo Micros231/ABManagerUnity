@@ -56,8 +56,6 @@ namespace ABManagerEditor.Browser.Blocks
             GUILayout.EndVertical();
             GUILayout.EndHorizontal();
         }
-
-
         private void OnSelectGroup(ABGroup group)
         {
             _assetsBlock.UpdateGroup(group);

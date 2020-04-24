@@ -22,8 +22,6 @@ namespace ABManagerEditor.Browser.Blocks
         private readonly ABManagerController _controller;
         private Vector2 _groupScrollPosition;
 
-        
-
         public GroupsBlock(ABManagerController controller)
         {
             _controller = controller;

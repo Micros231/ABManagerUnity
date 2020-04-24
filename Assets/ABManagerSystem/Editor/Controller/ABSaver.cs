@@ -8,6 +8,12 @@ namespace ABManagerEditor.Controller
 {
     internal class ABSaver : ABControllerAbstract
     {
+
+        internal void SaveAllSettings()
+        {
+            SaveManagerSettings();
+            SaveHostSettings();
+        }
         internal void SaveManagerSettings()
         {
             if (!CheckSettingsIsNull(ManagerSettings))
@@ -33,7 +39,6 @@ namespace ABManagerEditor.Controller
             }
             
         }
-
         private bool CheckSettingsIsNull<T>(T settings) where T: ScriptableObject
         {
             if (settings == null)

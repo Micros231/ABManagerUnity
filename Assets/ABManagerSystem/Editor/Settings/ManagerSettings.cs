@@ -1,4 +1,5 @@
 ﻿using ABManagerCore.Enums;
+using ABManagerEditor.BuildModels;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -88,6 +89,10 @@ namespace ABManagerEditor.Settings
                 return compression;
             }
         }
+        public IList<ABLevelTemplate> LevelTemplates => _levelTemplates;
+        public IList<ABStandTemplate> StandTemplates => _standTepmplates;
+        public IList<ABInstanceTemplate> InstanceTemplates => _instanceTemplates;
+
 
         [SerializeField]
         private BuildTargetGroup _buildTargetGroup;
@@ -99,6 +104,12 @@ namespace ABManagerEditor.Settings
         private string _buildPath;
         [SerializeField]
         private BuildCompressionType _buildCompressionType = BuildCompressionType.LZMA;
+        [SerializeField]
+        private List<ABLevelTemplate> _levelTemplates = new List<ABLevelTemplate>();
+        [SerializeField]
+        private List<ABStandTemplate> _standTepmplates = new List<ABStandTemplate>();
+        [SerializeField]
+        private List<ABInstanceTemplate> _instanceTemplates = new List<ABInstanceTemplate>();
     }
 }
 
